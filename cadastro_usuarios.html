@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Usuários </title>
+</head>
+
+<body>
+    <center>
+        <h1> Central Universidade</h1>
+        <hr>
+        <h2> Tela de Cadastro | Acesso </h2>
+        <hr>
+
+        <form method="POST" action="cadastro.php">
+
+            USUÁRIO: <br>
+            <input type="text" name="usuario"> <br>
+            <br>
+            SENHA: <br>
+            <input type="password" name="senha"> <br>
+            <br>
+            EMAIL: <br>
+            <input type="email" name="email"> <br>
+            <br>
+            NÍVEL: <br>
+            <select name="nivel">
+                <option value="admin">Administrador</option>
+                <option value="professor">Professor</option>
+                <option value="aluno">Aluno</option>
+                <option value="outro">Outros</option>
+            </select> <br>
+            <br>
+
+            <input type="submit" value="CADASTRAR"> <br>
+            <br>
+            <a href="index.html"> ENTRAR </a>
+
+    </center>
+
+
+
+    </form>
+</body>
+
+</html>
