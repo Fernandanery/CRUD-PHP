@@ -10,19 +10,29 @@
 
 <body>
     <center>
-        <h1>Bem vindo ao sistema da Universidade </h1>
+        <h1> Sitema de dados Universidade </h1>
     </center>
 
     <ul>
         <a href="usuarios.php">
             <li>USUÁRIO</li>
         </a>
-        <a href="alunos.php">
-            <li>ALUNO</li>
+        <a href="">
+            <li>ALUNOS</li>
         </a>
-        <a href="cursos.php">
-            <li>CURSOS</li>
+        <a href="">
+            <li>ADMINISTRADORES</li>
         </a>
+        <a href="">
+            <li>PROFESSORES</li>
+        </a>
+        <a href="">
+            <li>FUNCIONARIOS</li>
+        </a>
+        <a href="">
+            <li>GERAL</li>
+        </a>
+        
     </ul>
 
 </body>
